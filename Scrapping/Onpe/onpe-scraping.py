@@ -50,9 +50,7 @@ def go_onpe():
 
     msg = "Siendo las " + current_time + " " + porcentaje_actas + " Diferencia: " + str(diferencia)
 
-    #os.system('telegram-cli -W -e "msg Wadas_Axcess_Sec ' + msg + '"')
-    os.system('telegram-cli -W -e "msg @shecatli ' + msg + '"')
-    os.system('telegram-cli -W -e "msg Sergio_William_Mejia_Guadamur ' + msg + '"')
+    os.system('telegram-cli -W -e "msg Mi_Grupo_Xd ' + msg + '"')
 
 def go_test():
     print('Mi humble test....')

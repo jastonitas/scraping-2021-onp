@@ -41,6 +41,6 @@ def go_onpe():
 
     msg = "Siendo las " + current_time + " " + porcentaje_actas + " Diferencia: " + str(diferencia)
 
-    os.system('telegram-cli -W -e "msg Wadas_Axcess_Sec ' + msg + '"')
+    os.system('telegram-cli -W -e "msg Mi_Grupo_Xd ' + msg + '"')
 
 go_onpe()
